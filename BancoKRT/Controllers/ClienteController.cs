@@ -6,7 +6,7 @@ using BancoKRT.Repositories;
 namespace BancoKRT.Controllers;
 [ApiController]
 [Route("[controller]")]
-public class ClienteController : Controller
+public class ClienteController : ControllerBase
 {
     private readonly ILogger<ClienteController> _logger;
     private readonly IClienteRepository _repository;
